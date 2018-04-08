@@ -1,0 +1,218 @@
+
+  #logo {
+    width: 30%;
+    margin-top:10px;
+    margin-left: 0px;
+  }
+
+ #masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#parallax {
+    /* The image used */
+    background-image: url("../images/macbook.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: transparent;
+}
+
+.name span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+#parallax2 {
+    /* The image used */
+    background-image: url("../images/road.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.about {
+    position: absolute;
+    left: 0;
+    top: 125%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+#parallax3 {
+  /* The image used */
+    background-image: url("../images/macbook.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.work {
+    position: absolute;
+    left: 0;
+    top: 235%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.w3-section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+
+.w3-content{
+    margin:auto;
+    position:center;
+}
+
+
+
+#parallax4 {
+     background-image: url("../images/road.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax5 {
+ background-image: url("../images/skyline.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#main-container {
+  padding-top: 130px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 2000px;  
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+/* contact page */
+
+#contact {
+  background-image: url("../images/iphonecontact.jpeg");
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #e4822dc7;
+  border: 0 none;
+}

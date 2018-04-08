@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Lysnandie Jacques</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+</head>
+<body>
+ 
+    <header id="masthead">
+        <div class="container">
+            <a href="home.html" id="logo">Home</a>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="parallax"></div>
+        <div class="name">
+        <div style="background-color:transparent; font-size:60px; letter-spacing:10px; color:#e4b0ce;">
+        <strong>Lysnandie Jacques</strong>
+        <br>
+        Full-Stack Developer
+    </div>
+    </div>
+
+    <div id="parallax2"></div>
+        <div class="about">
+        <div style="background-color:transparent; font-size:30px; color:snow">
+            <strong>The Woman Behind the Code</strong>
+            <br>
+            <br>
+            <p>With a business savvy background in Perfomance Consulting and experience as a Full-Stack Developer, my path is not what you would call traditional. Let's throw away the traditonal...and make way for new ideas and perspectives. Want to get to know more about me?</p>
+            <a class="thb-btn action-primary" href="about.html" rel="nofollow">
+            More about Me </a>
+        </div>
+    </div>
+
+    <div id="parallax3"></div>
+    <div class="work">
+    <div style="background-color:transparent; font-size:50px; color: snow">
+    My Work
+    
+    <div class="w3-content w3-section" style="max-width:500px;">
+        <img class="mySlides" src="assets/images/bamazon.jpg" style="width:100%">
+        <img class="mySlides" src="assets/images/gymbuddy.jpg" style="width:100%">
+        <img class="mySlides" src="assets/images/mytravelpal.jpg" style="width:100%">
+    </div>
+    
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+    </script>
+</div>
+</div>
+</body>
+</html>
