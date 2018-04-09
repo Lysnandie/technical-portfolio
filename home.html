@@ -2,26 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About | Lysnandie Jacques</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </head>
 <body>
- 
-    <header id="masthead">
-        <div class="container">
-            <a href="home.html" id="logo">Home</a>
-            <nav>
-                <a href="about.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+<!--Nav Bar-->
+<header>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
         </div>
-    </header>
-
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Page 1</a>
+            </li>
+            <li>
+                <a href="#">Page 2</a>
+            </li>
+            <li>
+                <a href="#">Page 3</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</header>
+<!--Home Page-->
     <div id="parallax"></div>
         <div class="name">
         <div style="background-color:transparent; font-size:60px; letter-spacing:10px; color:#e4b0ce;">
@@ -31,6 +54,8 @@
     </div>
     </div>
 
+<!--About Me Home Page-->
+
     <div id="parallax2"></div>
         <div class="about">
         <div style="background-color:transparent; font-size:30px; color:snow">
@@ -38,39 +63,66 @@
             <br>
             <br>
             <p>With a business savvy background in Perfomance Consulting and experience as a Full-Stack Developer, my path is not what you would call traditional. Let's throw away the traditonal...and make way for new ideas and perspectives. Want to get to know more about me?</p>
-            <a class="thb-btn action-primary" href="about.html" rel="nofollow">
-            More about Me </a>
+            <br>
+            <div id="button">
+                <a class="thb-btn action-primary" href="about.html" rel="nofollow">About Me</a>
+            </div>
+
         </div>
     </div>
 
+<!--My Work/Portfolio-->
     <div id="parallax3"></div>
     <div class="work">
     <div style="background-color:transparent; font-size:50px; color: snow">
     My Work
-    
-    <div class="w3-content w3-section" style="max-width:500px;">
-        <img class="mySlides" src="assets/images/bamazon.jpg" style="width:100%">
-        <img class="mySlides" src="assets/images/gymbuddy.jpg" style="width:100%">
-        <img class="mySlides" src="assets/images/mytravelpal.jpg" style="width:100%">
     </div>
     
-    <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) { myIndex = 1 }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 4000); // Change image every 2 seconds
-        }
-    </script>
-</div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#deom" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://limitless-wave-46525.herokuapp.com/"><img src="assets/images/gymbuddy.jpg" alt="Gym Buddy" width="800" height="500"></a>
+                <div class="carousel-caption">
+                    <h3>Gym Buddy</h3>
+                    <p>A fitness tracking app, the only buddy you need in the gym.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://vote-chain.herokuapp.com/"><img src="assets/images/vote.jpg" alt="Vote Chain" width="800" height="500"></a>
+                <div class="carousel-caption">
+                    <h3>Vote Chain</h3>
+                    <p>A voting application built on Block Chain Technology that allows users to vote on present campaigns and hashes their votes
+                    making it secure, fast, and accurate.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://xoberti1.github.io/MyTravelPal/homepage.html"><img src="assets/images/mytravelpal.jpg" alt="My Travel Pal" width="800" height="500"></a>
+                <div class="carousel-caption">
+                    <h3>My Travel Pal</h3>
+                    <p>An app that helps you plan your next vacation anywhere in the world!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://github.com/Lysnandie/mysql-"><img src="assets/images/bamazon.jpg" alt="Bamazon" width="800" height="500"></a>
+                <div class="carousel-caption">
+                    <h3>Bamazon</h3>
+                    <p>An eCommerce database that helps query your company's database, making shopping easy for your clients!</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
 </div>
 </body>
 </html>

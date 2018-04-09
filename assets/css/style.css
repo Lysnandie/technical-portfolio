@@ -1,21 +1,14 @@
 
-  #logo {
-    width: 30%;
-    margin-top:10px;
-    margin-left: 0px;
-  }
+  
 
- #masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
-}
-
+  /*NavBar*/
+ .container-fluid{
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ 
 #parallax {
     /* The image used */
     background-image: url("../images/macbook.jpg");
@@ -77,13 +70,22 @@
     text-align: center;
     color: #000;
 }
+/*buttons*/
+#button {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+
 
 #parallax3 {
   /* The image used */
     background-image: url("../images/macbook.jpg");
 
     /* Set a specific height */
-    min-height: 800px; 
+    min-height: 1000px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -102,7 +104,7 @@
 .work {
     position: absolute;
     left: 0;
-    top: 235%;
+    top: 225%;
     width: 100%;
     text-align: center;
     color: #000;
