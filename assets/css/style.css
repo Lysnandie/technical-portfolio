@@ -8,10 +8,41 @@
      margin-right: auto;
      margin-left: auto;
  }
+
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: black;
+  border-bottom: 2px solid #ccc;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
  
 #parallax {
     /* The image used */
-    background-image: url("../images/macbook.jpg");
+    background-image: url("../images/sketchbook.jpg");
 
     /* Set a specific height */
     min-height: 800px; 
@@ -43,7 +74,7 @@
 
 #parallax2 {
     /* The image used */
-    background-image: url("../images/road.jpg");
+    background-image: url("../images/landscape.jpg");
 
     /* Set a specific height */
     min-height: 800px; 
@@ -82,7 +113,7 @@
 
 #parallax3 {
   /* The image used */
-    background-image: url("../images/macbook.jpg");
+    background-image: url("../images/ideas.jpg");
 
     /* Set a specific height */
     min-height: 1000px; 
@@ -172,7 +203,10 @@
   margin-right: 25px;
 }
 
-
+/*about*/
+#about {
+    background-image: url("../images/landscapejpg")
+}
 /* contact page */
 
 #contact {
